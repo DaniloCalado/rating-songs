@@ -28,6 +28,25 @@ const Columns = () => {
     }
   };
 
+  const handleDelete = async (id) => {
+    try {
+      await axios.delete(`http://localhost:3000/api/songs/${id}`);
+      const updatedCards = cards.filter((card) => card.id !== id);
+      setCards(updatedCards);
+    } catch (error) {
+      console.error('Error deleting song:', error);
+    }
+  };
+
+  const handleVote = async () => {
+    try {
+      await axios.post(`http://localhost:3000/api/songs/${id}/vote`);
+      onVote();
+    } catch (error) {
+      console.error("Error voting for song:", error);
+    }
+  };
+
   return (
     <div className="flex h-screen w-full p-4">
       <div className="w-2/4 bg-gray-200 p-4 rounded-lg border-r border-black">
@@ -40,7 +59,14 @@ const Columns = () => {
         <div className="flex flex-wrap justify-start gap-2">
           {cards.map((card) => (
             <div key={card.id}>
-              <Card artist={card.artist} song={card.song} photo={card.photo} />
+              <Card
+                id={card.id}
+                artist={card.artist}
+                song={card.song}
+                photo={card.photo}
+                onDelete={() => handleDelete(card.id)} 
+                onVote={() => handleVote(card.id)} 
+              />
             </div>
           ))}
         </div>
