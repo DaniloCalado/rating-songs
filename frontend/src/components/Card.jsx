@@ -1,5 +1,4 @@
 import React from "react";
-import axios from "axios";
 
 const Card = ({ id, artist, song, photo, onDelete, onVote }) => {
   return (

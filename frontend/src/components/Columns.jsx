@@ -38,10 +38,10 @@ const Columns = () => {
     }
   };
 
-  const handleVote = async () => {
+  const handleVote = async (id) => {
     try {
       await axios.post(`http://localhost:3000/api/songs/${id}/vote`);
-      onVote();
+      onVote(id);
     } catch (error) {
       console.error("Error voting for song:", error);
     }
