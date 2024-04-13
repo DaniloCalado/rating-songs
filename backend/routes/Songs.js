@@ -2,6 +2,16 @@ const express = require('express');
 const router = express.Router();
 const Song = require('../models/Songs');
 
+router.get('/', async (req, res) => {
+    try {
+      const songs = await Song.getAll();
+      res.json(songs);
+    } catch (error) {
+      console.error('Error fetching songs:', error);
+      res.status(500).json({ error: 'Internal Server Error' });
+    }
+  });
+
 router.post('/', async (req, res) => {
   const { artist, song, photo } = req.body;
   try {
