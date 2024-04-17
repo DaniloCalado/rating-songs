@@ -15,7 +15,7 @@ O banco de dados utilizado é o MySQL para armazenar as informações dos cards 
 
 Instalação do Backend
 Clone o repositório do backend:
-git clone https://github.com/seu-usuario/mrating-songs-backend.git
+git clone https://github.com/seu-usuario/rating-songs-backend.git
 
 Instale as dependências do projeto:
 cd rating_songs
