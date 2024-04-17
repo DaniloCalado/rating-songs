@@ -1,8 +1,9 @@
 
-Music Cards - Projeto Full Stack
-O Music Cards é um projeto Full Stack que permite criar, visualizar, votar e classificar músicas em tempo real. Ele consiste em um backend desenvolvido em Node.js com banco de dados MySQL para armazenar as informações das músicas e um frontend desenvolvido em React com Vite para a interface do usuário.
+RARTING SONGS - Projeto Full Stack
 
-Funcionalidades
+O Rating Songs é um projeto Full Stack que permite criar, visualizar, deletar ,votar e classificar músicas em tempo real. Ele consiste em um backend desenvolvido em Node.js com banco de dados MySQL para armazenar as informações das músicas e um frontend desenvolvido em React com Vite para a interface do usuário.
+
+FUNCIONALIDADES
 CRUD de Cards de Música: É possível criar, visualizar, atualizar e deletar cards de música, contendo informações como nome do artista, título da música e foto.
 Votação em Tempo Real: Os usuários podem votar em suas músicas favoritas e as informações de votos são atualizadas em tempo real.
 Ranking Automático: As três músicas mais votadas são automaticamente classificadas e exibidas na coluna da direita como o Top 3.
