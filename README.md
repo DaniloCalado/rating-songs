@@ -1,5 +1,5 @@
 
-RARTING SONGS - Projeto Full Stack
+RANTING SONGS - Projeto Full Stack
 
 O Rating Songs é um projeto Full Stack que permite criar, visualizar, deletar ,votar e classificar músicas em tempo real. Ele consiste em um backend desenvolvido em Node.js com banco de dados MySQL para armazenar as informações das músicas e um frontend desenvolvido em React com Vite para a interface do usuário.
 
