@@ -1,3 +1,4 @@
+![Captura de tela de 2024-04-17 07-52-03](https://github.com/DaniloCalado/rating-songs/assets/83645426/316f1e94-8da5-40c1-8c22-a16f6b4a9f29)
 
 RANTING SONGS - Projeto Full Stack
 
