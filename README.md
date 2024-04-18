@@ -16,8 +16,8 @@ O backend foi desenvolvido em Node.js e utiliza o framework Express para criar a
 O banco de dados utilizado é o MySQL para armazenar as informações dos cards de música. Foram criadas rotas para realizar operações CRUD nos cards de música, bem como para votar em uma música e obter as três músicas mais votadas para o ranking.
 
 Instalação do Backend
-Clone o repositório do backend:
-git clone https://github.com/seu-usuario/rating-songs-backend.git
+Clone o repositório:
+git clone git@github.com:DaniloCalado/rating-songs.git
 
 Instale as dependências do projeto:
 cd rating_songs
@@ -36,8 +36,9 @@ O frontend foi desenvolvido em React com Vite para um carregamento rápido duran
 Utilizou-se o Axios para fazer requisições à API do backend e o Tailwind CSS para estilização da interface.
 
 Instalação do Frontend
-Clone o repositório do frontend:
-git clone https://github.com/seu-usuario/music-cards-frontend.git
+Clone o repositório::
+git Clone git@github.com:DaniloCalado/rating-songs.git
+
 Instale as dependências do projeto:
 
 cd rating_songs
