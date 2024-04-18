@@ -1,6 +1,6 @@
 ![Captura de tela de 2024-04-17 07-52-03](https://github.com/DaniloCalado/rating-songs/assets/83645426/316f1e94-8da5-40c1-8c22-a16f6b4a9f29)
 
-RANTING SONGS - Projeto Full Stack
+ss RANTING SONGS - Projeto Full Stack
 
 O Rating Songs é um projeto Full Stack que permite criar, visualizar, deletar ,votar e classificar músicas em tempo real. Ele consiste em um backend desenvolvido em Node.js com banco de dados MySQL para armazenar as informações das músicas e um frontend desenvolvido em React com Vite para a interface do usuário.
 
@@ -9,6 +9,8 @@ CRUD de Cards de Música: É possível criar, visualizar, atualizar e deletar ca
 Votação em Tempo Real: Os usuários podem votar em suas músicas favoritas e as informações de votos são atualizadas em tempo real.
 Ranking Automático: As três músicas mais votadas são automaticamente classificadas e exibidas na coluna da direita como o Top 3.
 Backend
+
+BACKEND
 
 O backend foi desenvolvido em Node.js e utiliza o framework Express para criar as rotas da API.
 O banco de dados utilizado é o MySQL para armazenar as informações dos cards de música. Foram criadas rotas para realizar operações CRUD nos cards de música, bem como para votar em uma música e obter as três músicas mais votadas para o ranking.
