@@ -15,9 +15,11 @@ BACKEND
 O backend foi desenvolvido em Node.js e utiliza o framework Express para criar as rotas da API.
 O banco de dados utilizado é o MySQL para armazenar as informações dos cards de música. Foram criadas rotas para realizar operações CRUD nos cards de música, bem como para votar em uma música e obter as três músicas mais votadas para o ranking.
 
+
 Instalação do Backend
 Clone o repositório:
 git clone git@github.com:DaniloCalado/rating-songs.git
+
 
 Instale as dependências do projeto:
 cd rating_songs
