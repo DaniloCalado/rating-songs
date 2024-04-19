@@ -7,8 +7,8 @@ O Rating Songs é um projeto Full Stack que permite criar, visualizar, deletar ,
 FUNCIONALIDADES
 CRUD de Cards de Música: É possível criar, visualizar, atualizar e deletar cards de música, contendo informações como nome do artista, título da música e foto.
 Votação em Tempo Real: Os usuários podem votar em suas músicas favoritas e as informações de votos são atualizadas em tempo real.
-Ranking Automático: As três músicas mais votadas são automaticamente classificadas e exibidas na coluna da direita como o Top 3.
-Backend
+Ranking Automático: As três músicas mais votadas são automaticamente classificadas e exibidas na coluna da esquerda como o Top 3.
+
 
 BACKEND
 
